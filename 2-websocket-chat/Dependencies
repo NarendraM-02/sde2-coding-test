@@ -1,0 +1,21 @@
+#This will install the ws package listed in package.json.
+
+npm install ws
+
+
+''''''''''How to Run''''''''
+1. Install Dependencies
+
+npm install
+
+2. Start the Server
+
+node server.js
+
+''''''''You should see:'''''''
+
+WebSocket server is running on ws://localhost:8080
+
+3. Run the Client (in a new terminal)
+
+node client.js
