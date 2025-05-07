@@ -1,0 +1,22 @@
+{
+  "name": "websocket-chat",
+  "version": "1.0.0",
+  "description": "A simple WebSocket server and terminal-based client for real-time bidirectional communication.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "websocket",
+    "chat",
+    "real-time",
+    "nodejs"
+  ],
+  "author": "Narendra Mandati",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.2"
+  }
+}
